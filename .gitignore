@@ -1,22 +1,27 @@
 # Dependencias
 node_modules/
-.pnp
+.pnp/
 .pnp.js
 
 # Entorno local
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
-# Producción/Builds
+# Builds
 .next/
 out/
 build/
+dist/
 
-# Certificados o logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# macOS
 .DS_Store
+
+# IDE
+.vscode/
+.idea/
